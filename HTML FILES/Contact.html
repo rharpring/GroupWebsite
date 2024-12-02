@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Contact" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS FILES/products.css">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Ga+Maamli&display=swap');
+
+       
+
+        select {
+            background-color: rgb(200, 230, 240);
+            width: 100%;
+            padding: 14px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        input {
+            background-color: rgb(200, 230, 240);
+            width: 100%;
+            padding: 14px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            background-color: rgb(200, 230, 240);
+            width: 100%;
+            padding: 14px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        label.left {
+            float: left;
+        }
+
+        input.different {
+            background-color: rgb(236, 139, 109);
+            width: 20%;
+            padding: 14px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .banner {
+            width: 100%;
+            height: 250px;
+            background-image: url(/INF286FINALPROJECT/Group/images/FlorencePic.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .sticky-container {
+            position: sticky;
+            top: 0;
+            background: radial-gradient(circle, rgb(236, 139, 109), rgb(200, 230, 240));
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="sticky-container" align="center">
+        <p>
+            <a href="about_us.html">About us</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="home.html">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Product.html">Products</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Locations.html">Locations</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Contact.html">Contact</a>
+        </p>
+    </div>
+
+    <h1 align="center">Questions?</h1>
+
+    <br>
+    <div class="margin">
+    <form action="ThankYou.html" name="get" method="post" align="center">
+        <label class="left" for="location">Location:</label>
+            <select name="location" id="location">
+                <option value="volvo">Burlington KY</option>
+                <option value="saab">Eastgate OH</option>
+                <option value="mercedes">Highland Heights KY</option>
+                <option value="audi">Florence KY</option>
+            </select>
+        <br><br>
+        <label name="fname" for="fname" class="left">First Name:</label>
+            <input type="text" name="fname" ID="fname" placeholder="First Name" required>
+        <br><br>
+        <label name="lname" for="lname" class="left">Last Name:</label>
+            <input type="text" name="lname" ID="lname" placeholder="Last Name" required>
+        <br><br>
+        <label name="email" for="email" class="left">Email:</label>
+            <input type="email" name="email" ID="email" placeholder="Example@gmail.com" required>
+        <br><br>
+        <label name="subject" for="subject" class="left">Subject:</label>
+            <input type="text" name="subject" ID="subject" placeholder="Subject of your message" required>
+        <br><br>
+        <label name="message" for="message" class="left">Message:</label>
+            <textarea name="message" ID="message" placeholder="Your message here" required></textarea>
+        <br><br>
+            <input type="submit" name="SEND" value="Send" class="different">
+            <input type="reset" name="RESET" value="Clear" class="different">
+    </form>
+    </div>
+
+</body>
+
+<footer>
+    <p align="center">You can also contact us via email if you have anymore questions:&nbsp;<a href="mailto:CatalpaAcres@gmail.com">CatalpaAcres@gmail.com</a></p>
+</footer>
+
+</html>

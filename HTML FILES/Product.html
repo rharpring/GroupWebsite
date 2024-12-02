@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Product" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../CSS FILES/productpage.css">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Ga+Maamli&display=swap');
+
+        div.margin {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        .font {
+            font-family: "Faculty Glyphic", serif;
+            font-size: 35pt;
+            background-color: black;
+            color: pink;
+        }
+
+        #FirstHalf {
+            float:left;
+            width:50%;
+            height:500px;
+            box-sizing:border-box;
+        }
+
+        #SecondHalf {
+            float:right;
+            width:50%;
+            height:500px;
+            box-sizing:border-box;
+        }
+
+        .clearfix {
+            clear:both;
+        }
+
+        div.padding {
+            padding:20px;
+        }
+
+        .button1 {
+            color: pink;
+            padding: 10px 20px;
+            font: bold 18px sans-serif;
+            background: black;
+            border: 3px solid pink;
+            border-radius: 10px;
+            transition-duration: 0.5s;
+            cursor: pointer; }
+
+        .button1:hover {
+            background-color: pink;
+            color: black; }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="sticky-container" align="center">
+        <p>
+            <a href="about_us.html">About us</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="home.html">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Product.html">Products</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Locations.html">Locations</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Contact.html">Contact</a>
+        </p>
+    </div>
+    
+    <h1 align="center">Products</h1>
+
+    <div id="cont" class="margin">
+        <div id="SecondHalf" class="padding">
+            <img src="../images/ProducePic.jpg" alt="Image of Produce" width="100%">
+            <nav>
+                <button type="button" class="button1" onclick="window.location.href='produce.html';">Produce</button>
+            </nav>
+        </div>
+        <div id="FirstHalf" class="padding">
+            <img src="../images/beef_cow.jpeg" alt="Cow in Field" width="100%">
+            <nav>
+                <button type="button" class="button1" onclick="window.location.href='beef.html';">Beef</button>
+            </nav>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div id="cont" class="margin">
+        <div id="SecondHalf" class="padding">
+            <img src="../images/JamPic.jpg" alt="Jam on Bread" width="100%">
+            <nav>
+                <button type="button" class="button1" onclick="window.location.href='jelly.html';">Jelly</button>
+            </nav>
+        </div>
+        <div id="FirstHalf" class="padding">
+            <img src="../images/chickenimage.jpg" alt="Chicken with Eggs" width="100%">
+            <nav>
+                <button type="button" class="button1" onclick="window.location.href='egg.html';">Eggs</button>
+            </nav>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div id="cont" class="margin">
+        <div id="FirstHalf" class="padding">
+            <img src="../images/toys.jpg" alt="Stuffed Toys on Chair" width="100%">
+            <nav>
+                <button type="button" class="button1" onclick="window.location.href='toys.html';">Toys</button>
+            </nav>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(200, 230, 240);
+    color: rgb(107, 104, 104);
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    color: rgb(113, 197, 226);
+}
+
+a:active {
+    color: rgb(233, 108, 71);
+}
+
+
+.sticky-container {
+    position: sticky;
+    top: 0;
+    background: radial-gradient(circle, rgb(236, 139, 109), rgb(200, 230, 240));
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+h1 {
+    color: #EC8B6D;
+    text-align: center;
+    font-size: 5em;
+    font-family: Ga Maamli;
+}
+
+.product-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: rgb(107, 104, 104);
+    border-style: solid;
+    border-radius: 5px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.product {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.product img {
+    
+    margin-right: 15px; 
+}
+
+.product img {
+    width: 500px;        
+    height: auto;       
+    object-fit: cover;   
+    margin-right: 15px;   
+}
+
+.product p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    max-width: 600px;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Ga+Maamli&display=swap');
+
+ul.productLists{
+    list-style-type: none;
+    justify-content: center;
+}
+ul li{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    max-width: 600px;  
+}
+table#productTable{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    max-width: 600px;
+       
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+h1, h2, h3 {
+    font-family: 'Ga Maamli', serif;
+}
+
+table {
+    text-align: center;
+    border: 3px solid rgb(107, 104, 104); 
+    border-radius: 8px; 
+    border-collapse: separate; 
+    margin: 20px auto; 
+}
+
+th, td {
+    padding: 10px; 
+    border: 3px solid rgb(107, 104, 104); 
+}

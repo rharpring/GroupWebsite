@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/cs2?family=Faculty+Glyphic&family=Ga+Maamli&display=swap');
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background: radial-gradient(circle, rgb(236, 139, 109), rgb(200, 230, 240));
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+h1{
+    font-size: 5em;
+    font-family: Ga Maamli;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+#imgbar{
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+}
+
+#sidebar a {
+    display: block;
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#sidebar a:hover {
+    background-color: #ddd;
+}
+
+#main-content {
+    margin-left: 260px; 
+    margin-right: 260px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#body {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: rgb(200, 230, 240);
+    color: rgb(236, 139, 109);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+p{
+    font-size: 25px;
+}
+h2{
+    font-size: 32px;
+}
+
+#imgbar img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+}
+#body img {
+    width: 40%;
+    height: auto;
+}
